@@ -1,12 +1,20 @@
-# ML From Scratch
-│
-├── 01_Data_Prep/                 # Your new data cleaning scratch code
-│   ├── Outlier Detection/
-│   │   ├── dbscan.py             # Your custom DBSCAN class
-│   │   └── demo_dbscan.ipynb     # The Kaggle comparison notebook
-│  
-│
+# 🧠 Machine Learning From Scratch
 
-│   
+> A pure-Python implementation of core Machine Learning algorithms. No black boxes, just pure math and logic.
+
+## 🎯 Project Motivation
+This repository is dedicated to understanding what actually happens under the hood of standard Data Science libraries. By building algorithms entirely from scratch without relying on `scikit-learn` for the core logic, this project explores the raw mathematics, spatial mechanics, and algorithmic time complexities that power modern Machine Learning.
+
+## 📂 Repository Structure
+
+```text
+ML-From-Scratch/
 │
-├── datasets/                     # Folder for raw CSVs (We will hide this from GitHub)
+├── 01_Data_Prep/                 # Data cleaning and preparation tools
+│   └── Outlier_Detection/        # Algorithmic anomaly detection
+│       ├── dbscan.py             # Custom DBSCAN logic built from scratch
+│       └── demo_dbscan.ipynb     # Benchmarking: Custom vs. Scikit-Learn
+│
+├── datasets/                     # Raw CSV/Data files (Local only)
+├── .gitignore                    # Python/Jupyter cache ignoring
+└── README.md                     # Project documentation
