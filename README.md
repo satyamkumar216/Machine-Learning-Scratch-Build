@@ -10,6 +10,3 @@
 │   
 │
 ├── datasets/                     # Folder for raw CSVs (We will hide this from GitHub)
-│
-├── .gitignore                    # CRITICAL: Tells Git what NOT to upload
-└── README.md                     # The master landing page for your whole project
